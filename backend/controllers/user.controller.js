@@ -25,7 +25,7 @@ async function registration(req, res) {
         if (req.file) {
             cloudinary.config({
                 cloud_name: "deuofkrkf",
-                api_key: "862572375618953",
+                api_key: process.env.CLOUDINARY_API_KEY,
                 api_secret: "vrtWkACC1-Tra5I0WzJ6tIsstLw"
             });
 
